@@ -17,18 +17,28 @@
 <body>
     <!-- Left Panel Navigation -->
     <nav class="left-panel">
+        <div class="mobile-header">
+            <button class="hamburger" aria-label="Toggle menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <h3 class="mobile-title">Ahmad Abdullah Rifat</h3>
+        </div>
         <div class="logo">
-            <h3>Ahmad Abdullullah Rifat</h3>
+            <h3>Ahmad Abdullah Rifat</h3>
         </div>
         <ul class="nav-menu">
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#expertise">Expertise</a></li>
             <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
+            <li><a href="#academic">Education</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="copyright">
+            <p> 2024 Ahmad Abdullah Rifat</p>
+            <p>All rights reserved.</p>
+        </div>
     </nav>
 
     <!-- Main Content -->
@@ -75,7 +85,7 @@
                 </div>
                 <div class="nationality">
                     <p><img src="assets/bangladesh-flag.png" alt="Bangladesh Flag" title="From Bangladesh"> Bangladesh</p>
-                    <p>🗣 Bangla, English</p>
+                    <p> Bangla, English</p>
                 </div>
                 <div class="about-text">
                     <p>I always wanted to be innovative with what I do, rather than following the secured success. Now my journey is driven by a thirst for exploring new ideas and turning them into reality through implementing my knowledge from academic and professional IT experience. As a data analyst, my expertise includes Python, Excel/Google Sheets, Google AppScript, Power BI, and Tableau. I find immense joy in deciphering complex datasets and transforming them into actionable insights that drive strategic decision-making.</p>
@@ -130,47 +140,128 @@
             <div class="container">
                 <h2 class="section-title">Experience</h2>
                 <div class="separator"></div>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="time-badge">2024 - Present</div>
-                        <div class="timeline-content">
-                            <h3>Co-Founder and CEO</h3>
-                            <p>Take A Boat</p>
-                            <p>Leading Bangladesh's first boat booking platform</p>
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <div class="experience-content">
+                            <div class="job-details">
+                                <div class="experience-header">
+                                    <h3>Co-Founder and Chief Executive Officer</h3>
+                                    <span class="duration">July 2024 - Present</span>
+                                </div>
+                                <h4 class="company">Take A Boat</h4>
+                                <p class="location">Dhaka, Bangladesh</p>
+                            </div>
+                            <ul class="responsibilities">
+                                <li>System Architecture</li>
+                                <li>Business Development</li>
+                                <li>Brand Strategy Development</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="timeline-item">
-                        <div class="time-badge">2022 - 2023</div>
-                        <div class="timeline-content">
-                            <h3>Data Analyst</h3>
-                            <p>Hinduja Global Solutions, Bangalore</p>
-                            <p>Led data analysis initiatives and process optimization</p>
+
+                    <div class="experience-card">
+                        <div class="experience-content">
+                            <div class="job-details">
+                                <div class="experience-header">
+                                    <h3>Data Analyst (Business Intelligence)</h3>
+                                    <span class="duration">June 2022 – September 2023</span>
+                                </div>
+                                <h4 class="company">Hinduja Global Solutions</h4>
+                                <p class="location">Bengaluru, India</p>
+                            </div>
+                            <ul class="responsibilities">
+                                <li>Scraping data from websites and business reports</li>
+                                <li>Cleaning data and making summarizations, reports, projections, key factors</li>
+                                <li>Data modeling, regression and sentiment analysis, prediction using machine learning approaches</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="timeline-item">
-                        <div class="time-badge">2021 - 2022</div>
-                        <div class="timeline-content">
-                            <h3>Data Analyst & Business Development Manager</h3>
-                            <p>Techabyte Solutions, Dhaka</p>
-                            <p>Managed data analytics and business growth strategies</p>
+
+                    <div class="experience-card">
+                        <div class="experience-content">
+                            <div class="job-details">
+                                <div class="experience-header">
+                                    <h3>Data Analyst and Business Development Manager</h3>
+                                    <span class="duration">October 2021 – May 2022</span>
+                                </div>
+                                <h4 class="company">Techabyte Solutions</h4>
+                                <p class="location">Dhaka, Bangladesh</p>
+                            </div>
+                            <ul class="responsibilities">
+                                <li>Analyzing business data of in-house and client brands</li>
+                                <li>Forecasting sales, setting using forecasting models</li>
+                                <li>Setting target marketing plans using social media scrapping and NLP models</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Education Section -->
-        <section id="education" class="section">
+        <!-- Academic Section -->
+        <section id="academic" class="section">
             <div class="container">
-                <h2 class="section-title">Academic Information</h2>
+                <h2 class="section-title">Education</h2>
                 <div class="separator"></div>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="time-badge">2014 - 2019</div>
-                        <div class="timeline-content">
-                            <h3>BSc in Computer Science and Engineering</h3>
-                            <p>Jahangirnagar University</p>
-                            <p>Focus on Computer Science fundamentals and Software Development</p>
+                <div class="academic-card">
+                    <div class="academic-content">
+                        <div class="university-info">
+                            <div class="university-logo">
+                                <img src="assets/juniv.png" alt="Jahangirnagar University Logo">
+                            </div>
+                            <div class="academic-details">
+                                <div class="info-line">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <div class="info-content">
+                                        <h3>Bachelor of Science</h3>
+                                        <span class="duration">2014 - 2019</span>
+                                    </div>
+                                </div>
+                                <div class="info-line">
+                                    <i class="fas fa-laptop-code"></i>
+                                    <div class="info-content">
+                                        <h4 class="department">
+                                            <a href="https://juniv.edu/department/cse" target="_blank" rel="noopener noreferrer">
+                                                Department of Computer Science and Engineering
+                                            </a>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="info-line">
+                                    <i class="fas fa-university"></i>
+                                    <div class="info-content">
+                                        <p class="university">
+                                            <a href="https://juniv.edu/" target="_blank" rel="noopener noreferrer">
+                                                Jahangirnagar University
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info-line">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <div class="info-content">
+                                        <p class="location">Dhaka, Bangladesh</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="courses-section">
+                            <div class="courses-header">
+                                <i class="fas fa-book"></i>
+                                <h4>Mentionable Courses</h4>
+                            </div>
+                            <div class="course-tags">
+                                <span class="course-tag" data-category="programming"><i class="fas fa-code"></i>Programming Languages (C, C++, Java, Python, HTML)</span>
+                                <span class="course-tag" data-category="software"><i class="fas fa-project-diagram"></i>Data Structure and Algorithms</span>
+                                <span class="course-tag" data-category="hardware"><i class="fas fa-microchip"></i>Digital Logic Design</span>
+                                <span class="course-tag" data-category="hardware"><i class="fas fa-wave-square"></i>Signal Processing</span>
+                                <span class="course-tag" data-category="hardware"><i class="fas fa-memory"></i>Computer Architecture</span>
+                                <span class="course-tag" data-category="software"><i class="fas fa-sitemap"></i>Software Architecture and Engineering</span>
+                                <span class="course-tag" data-category="data"><i class="fas fa-database"></i>Data Engineering</span>
+                                <span class="course-tag" data-category="data"><i class="fas fa-brain"></i>Artificial Intelligence and Machine Learning</span>
+                                <span class="course-tag" data-category="business"><i class="fas fa-chart-line"></i>Economics</span>
+                                <span class="course-tag" data-category="business"><i class="fas fa-calculator"></i>Accounting</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -178,38 +269,52 @@
         </section>
 
         <!-- Projects Section -->
-        <section id="projects" class="section">
-            <div class="container">
-                <h2 class="section-title">Ongoing Projects</h2>
-                <div class="separator"></div>
-                <div class="card-grid">
-                    <div class="card">
-                        <div class="time-tag">2023 - Present</div>
-                        <h3>Take A Boat</h3>
-                        <p>Bangladesh's first boat booking platform</p>
-                        <a href="https://takeaboat.com" class="project-link" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> Visit Website
-                        </a>
-                    </div>
-                    <div class="card">
-                        <div class="time-tag">2024 - Present</div>
-                        <h3>Tour My Bangladesh</h3>
-                        <p>AI-powered tour planning platform</p>
-                        <a href="https://tourmybangladesh.com" class="project-link" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> Visit Website
-                        </a>
-                    </div>
-                    <div class="card">
-                        <div class="time-tag">2024 - Present</div>
-                        <h3>Kobeki Events</h3>
-                        <p>Event management platform</p>
-                        <a href="https://kobeki.events" class="project-link" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> Visit Website
-                        </a>
+        <div class="projects" id="projects">
+            <div class="section-title">
+                <h2>Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="project-cards">
+                <div class="project-card">
+                    <div class="project-duration">2023 - Present</div>
+                    <h3>Take A Boat</h3>
+                    <p>Bangladesh's first boat booking platform</p>
+                    <button class="view-more" data-project="takeaboat">View More</button>
+                </div>
+                <div class="project-card">
+                    <div class="project-duration">2024 - Present</div>
+                    <h3>Tour My Bangladesh</h3>
+                    <p>AI-powered tour planning platform</p>
+                    <button class="view-more" data-project="tourmybd">View More</button>
+                </div>
+                <div class="project-card">
+                    <div class="project-duration">2024 - Present</div>
+                    <h3>Kobeki Events</h3>
+                    <p>Event management platform</p>
+                    <button class="view-more" data-project="kobeki">View More</button>
+                </div>
+                <div class="project-card">
+                    <div class="project-duration">2024 - Present</div>
+                    <h3>Sudoku BD</h3>
+                    <p>Learning Management System</p>
+                    <button class="view-more" data-project="sudoku">View More</button>
+                </div>
+                <div class="contact-card">
+                    <h3>Want to merge our minds?</h3>
+                    <a href="#contact" class="contact-link">Get in touch</a>
+                </div>
+            </div>
+
+            <!-- Project Details Modal -->
+            <div class="modal" id="projectModal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-body">
+                        <!-- Content will be dynamically inserted here -->
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
         <!-- Contact Section -->
         <section id="contact" class="section">
@@ -244,12 +349,115 @@
                 </div>
             </div>
         </section>
+        <footer class="mobile-footer">
+            <p> 2024 Ahmad Abdullah Rifat</p>
+            <p>All rights reserved.</p>
+        </footer>
     </main>
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-menu');
+            const menuLinks = document.querySelectorAll('.nav-menu a');
+
+            function toggleMenu() {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+            }
+
+            hamburger.addEventListener('click', toggleMenu);
+
+            menuLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    toggleMenu();
+                });
+            });
+        });
+    </script>
+    <script>
+        // Project Modal Functionality
+        const modal = document.getElementById('projectModal');
+        const modalBody = modal.querySelector('.modal-body');
+        const closeModal = document.querySelector('.close-modal');
+        const viewMoreButtons = document.querySelectorAll('.view-more');
+
+        const projectDetails = {
+            takeaboat: {
+                title: 'Take A Boat',
+                description: 'Bangladesh\'s first boat booking platform',
+                duration: '2023 - Present',
+                technologies: ['Web Development', 'Python', 'TypeScript'],
+                website: 'https://takeaboat.com'
+            },
+            tourmybd: {
+                title: 'Tour My Bangladesh',
+                description: 'AI-powered tour planning platform',
+                duration: '2024 - Present',
+                technologies: ['Electron', 'TypeScript', 'React'],
+                website: 'https://tourmybd.com'
+            },
+            kobeki: {
+                title: 'Kobeki Events',
+                description: 'Event management platform',
+                duration: '2024 - Present',
+                technologies: ['React', 'Node.js', 'MongoDB'],
+                website: 'https://kobeki.com'
+            },
+            sudoku: {
+                title: 'Sudoku BD',
+                description: 'Comprehensive learning management system designed to enhance educational experiences.',
+                duration: '2024 - Present',
+                technologies: ['React', 'Node.js', 'MongoDB'],
+                website: 'https://sudokubd.com'
+            }
+        };
+
+        function showModal(projectId) {
+            const project = projectDetails[projectId];
+            if (!project) return;
+
+            modalBody.innerHTML = `
+                <h2>${project.title}</h2>
+                <div class="project-duration">${project.duration}</div>
+                <p>${project.description}</p>
+                <div class="project-technologies">
+                    ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                </div>
+                <a href="${project.website}" class="website-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i> Visit Website
+                </a>
+            `;
+            
+            modal.classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function hideModal() {
+            modal.classList.remove('show');
+            document.body.style.overflow = '';
+        }
+
+        viewMoreButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const projectId = button.getAttribute('data-project');
+                showModal(projectId);
+            });
+        });
+
+        closeModal.addEventListener('click', hideModal);
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) hideModal();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') hideModal();
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
