@@ -1,15 +1,17 @@
 BEGIN:VCARD
-VERSION:2.1
-N;LANGUAGE=en-us:Rifat;Ahmad Abdullah;;Mr.
-FN:Mr. Ahmad Abdullah Rifat
+VERSION:4.0
+N:Rifat;Ahmad Abdullah;
+FN:Ahmad Abdullah Rifat
+TITLE:Co-Founder & CEO
 ORG:Take A Boat
-TITLE:Chief Executive Officer
-TEL;CELL;VOICE:+8801722216989 
-ADR;WORK:;;H-15, Road-6/A, Sector-6, Uttara;Dhaka;;1230;Bangladesh
-X-MS-OL-DEFAULT-POSTAL-ADDRESS:0
-URL;WORK:https://www.takeaboat.com
+EMAIL;work;PREF:rifat@takeaboat.com
+EMAIL;home;PREF:rifatahmadabdullah@gmail.com
+TEL;cell;VOICE;PREF:+880 1722216989
+ADR;WORK;POSTAL;PARCEL;DOM;PREF:;;H-14, Road-6/A, Sector-05, Uttara;Dhaka;;1230;Bangladesh
+URL;TYPE=COMPANY;PREF:https://takeaboat.com
+URL;LINKEDIN;PREF:https://www.linkedin.com/in/ahmadabdullahrifat
 URL;TYPE=GITHUB:https://github.com/ahmadrifat
-URL;TYPE=LINKEDIN:https://www.linkedin.com/in/ahmadabdullahrifat/
 URL;TYPE=FACEBOOK:https://www.facebook.com/ahmadabdullahrifat/
-EMAIL;PREF;Personal:rifatahmadabdullah@gmail.com
+URL;TYPE=WhatsApp;PREF:https://wa.me/+8801722216989
+REV:2025-10-06T23:56:00.512Z
 END:VCARD
